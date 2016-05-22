@@ -1,17 +1,21 @@
 {
-  "name": "sharejs",
+  "name": "server-share",
   "version": "0.1.0",
-  "description": "Share Server",
+  "description": "Server Share over http/https",
   "main": "sharejs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/Zax/sharejs"
+    "url" : "https://github.com/Zax/server-share.git"
   },
-  "author": "Zax <zacchi.paolo@gmail.com> (https://github.com/Zax/)",
+  "author": "Zax",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zax/server-share/issunpm logines"
+  },
+  "homepage": "https://github.com/Zax/server-share",
   "dependencies": {
     "basic-auth": "^1.0.4",
     "express": "^4.13.4",
