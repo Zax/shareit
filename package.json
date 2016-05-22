@@ -8,14 +8,14 @@
   },
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/Zax/server-share.git"
+    "url" : "https://github.com/Zax/shareit.git"
   },
   "author": "Zax",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Zax/server-share/issunpm logines"
+    "url": "https://github.com/Zax/shareit/issunpm logines"
   },
-  "homepage": "https://github.com/Zax/server-share",
+  "homepage": "https://github.com/Zax/shareit",
   "dependencies": {
     "basic-auth": "^1.0.4",
     "express": "^4.13.4",
