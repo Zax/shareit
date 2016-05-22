@@ -1,8 +1,8 @@
 {
-  "name": "server-share",
-  "version": "0.1.0",
-  "description": "Server Share over http/https",
-  "main": "sharejs.js",
+  "name": "shareit",
+  "version": "0.1.1",
+  "description": "Share over http/https",
+  "main": "shareit.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

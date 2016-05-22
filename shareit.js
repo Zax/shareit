@@ -4,12 +4,12 @@ var auth = require('basic-auth');
 
 // Default config
 var config = {
-    "realm": "Shared-JS",
+    "realm": "ShareIt",
     "port": 3000,
     "root": ".",
     "ssl": { "certificate": "ssl/server.crt", "privateKey": "ssl/server.key"},
     "users": [ { "name": "admin", "pass": "demo" } ],
-    "log": { filename: 'sharejs.log', json: false, prettyPrint: true }
+    "log": { filename: 'shareit.log', json: false, prettyPrint: true }
 };
 // Create logger
 var winston = require('winston');
@@ -19,8 +19,8 @@ var logger = new winston.Logger({
 });
 // Check configuration file
 try{
-    config = _.extend(config, require('./sharejs.json'));
-    logger.info('Configuration file "sharejs.json" found...');
+    config = _.extend(config, require('./shareit.json'));
+    logger.info('Configuration file "shareit.json" found...');
 }catch(ex) {
     logger.info('Configuration file not found, use standard config...');
 }
