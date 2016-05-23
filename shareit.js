@@ -19,7 +19,7 @@ var logger = new winston.Logger({
 });
 // Check configuration file
 try{
-    config = _.extend(config, require('./shareit.json'));
+    config = _.extend(config, JSON.parse(fs.readFileSync('shareit.json', 'utf8')));
     logger.info('Configuration file "shareit.json" found...');
 }catch(ex) {
     logger.info('Configuration file not found, use standard config...');
