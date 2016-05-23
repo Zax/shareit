@@ -1,6 +1,6 @@
 {
   "name": "shareit",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Share over http/https",
   "main": "shareit.js",
   "scripts": {
